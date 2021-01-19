@@ -13,3 +13,20 @@ def loop_message_n_times(string, n)
     n -=1
   end
 end
+
+def output_array(array)
+  i = 0
+  while i < array.length do
+    puts array[i]
+    i += 1
+  end
+end
+
+def return_string_array(array)
+  new_array = []
+  i = 0
+  while i < array.length do
+    new_array.push(array[i].to_s)
+    i += 1
+  end
+end
